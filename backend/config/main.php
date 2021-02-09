@@ -39,12 +39,11 @@ return [
         ],
         'assetManager'=> [
             'bundles' => [
-                \yii\bootstrap4\BootstrapAsset::class => false
-            ]
-        ],
+                \yii\bootstrap4\BootstrapAsset::class => false ]
+            ],
 
-        'urlManager' => [
-            'enablePrettyUrl' => true,
+         'urlManager' => [
+             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
             ],
@@ -53,3 +52,4 @@ return [
     ],
     'params' => $params,
 ];
+
